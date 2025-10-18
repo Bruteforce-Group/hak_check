@@ -1,0 +1,64 @@
+{
+  "migrated_at": "2025-09-19T23:27:35.939504",
+  "original_path": "/Users/danielborrowman/Documents/GitHub/hak_check",
+  "analysis": {
+    "name": "hak_check",
+    "path": "/Users/danielborrowman/Documents/GitHub/hak_check",
+    "size_mb": 0.41,
+    "file_count": 80,
+    "project_types": [
+      "git",
+      "python",
+      "documentation"
+    ],
+    "languages": "set()",
+    "frameworks": "set()",
+    "has_git": true,
+    "git_status": {
+      "current_branch": "main",
+      "has_changes": true,
+      "remotes": [],
+      "last_commit": {
+        "hash": "aecfa5c4",
+        "message": "Initial commit of HakCheck application",
+        "date": "2025-03-17 13:54:48 +1000"
+      }
+    },
+    "dependencies": [],
+    "cleanup_candidates": [
+      ".git/logs/HEAD",
+      ".git/logs/refs/heads/main",
+      "src/__pycache__/gui.cpython-311.pyc",
+      "src/__pycache__/main.cpython-311.pyc",
+      "src/__pycache__/traffic_analyzer.cpython-311.pyc",
+      "src/__pycache__/isolation.cpython-311.pyc",
+      "src/__pycache__/topology.cpython-311.pyc",
+      "src/__pycache__/__init__.cpython-311.pyc"
+    ],
+    "cleanup_size_mb": 0.12,
+    "description": "Project type: git, python, documentation. Size: 0.41MB (80 files). Git: main branch",
+    "priority": "medium",
+    "status": "active",
+    "last_modified": "2025-05-17T01:39:32"
+  },
+  "cleanup_performed": {
+    "project": "hak_check",
+    "files_removed": [
+      "src/__pycache__/gui.cpython-311.pyc",
+      "src/__pycache__/main.cpython-311.pyc",
+      "src/__pycache__/traffic_analyzer.cpython-311.pyc",
+      "src/__pycache__/isolation.cpython-311.pyc",
+      "src/__pycache__/topology.cpython-311.pyc",
+      "src/__pycache__/__init__.cpython-311.pyc",
+      "hakcheck.log",
+      "hakcheck_cli.log",
+      "hakcheck_gui.log"
+    ],
+    "dirs_removed": [
+      ".git/logs",
+      "src/__pycache__"
+    ],
+    "size_freed_mb": 0.16,
+    "errors": []
+  }
+}
